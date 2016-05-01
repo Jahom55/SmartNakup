@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/db"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Databaze" />
+        <item
+            android:id="@+id/db_plan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pridani do DB" />
+        <item
+            android:id="@+id/mapButton"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Mapa s obchody" />
+    </group>
+
+    <item android:title="Komunikace">
+        <menu>
+            <item
+                android:id="@+id/kontakt"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Kontakt" />
+        </menu>
+    </item>
+
+</menu>

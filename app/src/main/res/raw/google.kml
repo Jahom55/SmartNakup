@@ -1,0 +1,5233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Lidl_Stiftung_und_Co._KG (POI-Service)</name>
+		<Folder>
+			<name>Lidl Stiftung und Co KG</name>
+			<open>1</open>
+			<Placemark id="139021">
+				<description><![CDATA[Selbská 2883<br><b>352 01 As</b><br>]]></description>
+				<name>Lidl As</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.17609,50.21743</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139022">
+				<description><![CDATA[Cervené Vrsky 2179<br><b>256 01 Benesov</b><br>]]></description>
+				<name>Lidl Benesov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.68273,49.78960</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139024">
+				<description><![CDATA[Spojovací 376<br><b>418 01 Bílina</b><br>]]></description>
+				<name>Lidl Bílina</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.77123,50.54595</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139025">
+				<description><![CDATA[Svitavská 2393/16b<br><b>678 24 Blansko</b><br>]]></description>
+				<name>Lidl Blansko</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.64622,49.35749</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139026">
+				<description><![CDATA[K. Jatkám 1275<br><b>388 01 Blatná</b><br>]]></description>
+				<name>Lidl Blatná</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.88330,49.42267</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139027">
+				<description><![CDATA[Sunychelská 1232<br><b>735 81 Bohumín</b><br>]]></description>
+				<name>Lidl Bohumín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.35780,49.90868</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139028">
+				<description><![CDATA[Otakara Kubína 2339<br><b>680 01 Boskovice</b><br>]]></description>
+				<name>Lidl Boskovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.64817,49.49134</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139029">
+				<description><![CDATA[Prumyslová 259<br><b>250 01 Brandýs Nad Labem</b><br>]]></description>
+				<name>Lidl Brandýs Nad Labem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.66711,50.17567</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139030">
+				<description><![CDATA[Trída 1. Máje 3255<br><b>690 02 Breclav</b><br>]]></description>
+				<name>Lidl Breclav</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.87858,48.75786</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139031">
+				<description><![CDATA[Bayerova 23<br><b>602 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.60090,49.20765</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139032">
+				<description><![CDATA[Dornych 451/39<br><b>601 69 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.61990,49.18717</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139033">
+				<description><![CDATA[Hnevkovského 700/65b<br><b>617 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.62526,49.17146</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139034">
+				<description><![CDATA[Hviezdoslavova 1288/2<br><b>601 67 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.66902,49.18285</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139035">
+				<description><![CDATA[Jakuba Obrovského 228/1a<br><b>635 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.53220,49.22607</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139036">
+				<description><![CDATA[Okruzní 881<br><b>638 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.62517,49.22236</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139037">
+				<description><![CDATA[Palackého Trída 2980/152<br><b>612 93 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.59119,49.22992</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139038">
+				<description><![CDATA[Trnkova 121/2772<br><b>628 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.66760,49.20040</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139039">
+				<description><![CDATA[Vídenská 281/77<br><b>639 00 Brno</b><br>]]></description>
+				<name>Lidl Brno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.59622,49.17884</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139040">
+				<description><![CDATA[Komenského 383<br><b>550 01 Broumov</b><br>]]></description>
+				<name>Lidl Broumov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.32973,50.58816</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139041">
+				<description><![CDATA[Zeyerova 1932/11<br><b>792 01 Bruntál</b><br>]]></description>
+				<name>Lidl Bruntál</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.45538,49.98796</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139042">
+				<description><![CDATA[Holesovská 31<br><b>768 61 Bystrice Pod Hostýnem</b><br>]]></description>
+				<name>Lidl Bystrice Pod Hostýnem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.66888,49.40064</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139043">
+				<description><![CDATA[Jablonského 1773<br><b>286 01 Cáslav</b><br>]]></description>
+				<name>Lidl Cáslav</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.39744,49.91146</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139044">
+				<description><![CDATA[Prazská 824<br><b>407 21 Ceská Kamenice</b><br>]]></description>
+				<name>Lidl Ceská Kamenice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.42127,50.79943</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139045">
+				<description><![CDATA[Purkynova 3111<br><b>470 01 Ceská Lípa</b><br>]]></description>
+				<name>Lidl Ceská Lípa</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.54365,50.69298</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139046">
+				<description><![CDATA[Dr. E. Benese 641<br><b>560 02 Ceská Trebová</b><br>]]></description>
+				<name>Lidl Ceská Trebová</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.44114,49.91144</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139047">
+				<description><![CDATA[Bozeny Nemcové 2148<br><b>370 01 Ceské Budejovice</b><br>]]></description>
+				<name>Lidl Ceské Budejovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.47139,48.96791</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139048">
+				<description><![CDATA[Labská 1500<br><b>370 11 Ceské Budejovice</b><br>]]></description>
+				<name>Lidl Ceské Budejovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.45466,48.99722</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139049">
+				<description><![CDATA[J. Kouly 1396<br><b>282 01 Ceský Brod</b><br>]]></description>
+				<name>Lidl Ceský Brod</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.86411,50.07330</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139050">
+				<description><![CDATA[Tovární 112<br><b>381 01 Ceský Krumlov</b><br>]]></description>
+				<name>Lidl Ceský Krumlov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.33315,48.82507</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139051">
+				<description><![CDATA[Jablunkovská 2021/54<br><b>737 01 Ceský Tesín</b><br>]]></description>
+				<name>Lidl Ceský Tesín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.62018,49.73413</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139052">
+				<description><![CDATA[Vodní 2453<br><b>350 02 Cheb</b><br>]]></description>
+				<name>Lidl Cheb</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.37127,50.08369</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139053">
+				<description><![CDATA[Prazská 823<br><b>503 51 Chlumec Nad Cidlinou</b><br>]]></description>
+				<name>Lidl Chlumec Nad Cidlinou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.44749,50.15868</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139054">
+				<description><![CDATA[Zámestí 1739<br><b>565 01 Chocen</b><br>]]></description>
+				<name>Lidl Chocen</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.22226,50.00313</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139055">
+				<description><![CDATA[Horní 1117/1<br><b>357 35 Chodov</b><br>]]></description>
+				<name>Lidl Chodov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.74675,50.23273</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139056">
+				<description><![CDATA[Písecná 5583<br><b>430 04 Chomutov</b><br>]]></description>
+				<name>Lidl Chomutov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.44660,50.48897</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139057">
+				<description><![CDATA[Wolkerova 5546<br><b>430 01 Chomutov</b><br>]]></description>
+				<name>Lidl Chomutov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.40862,50.46086</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139058">
+				<description><![CDATA[Tovární 1395<br><b>537 01 Chrudim</b><br>]]></description>
+				<name>Lidl Chrudim</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.79770,49.95527</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139059">
+				<description><![CDATA[Krajírova 16/i<br><b>380 01 Dacice</b><br>]]></description>
+				<name>Lidl Dacice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.43820,49.08295</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139060">
+				<description><![CDATA[Ústecká 1933<br><b>405 02 Decín</b><br>]]></description>
+				<name>Lidl Decín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.20171,50.77209</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139061">
+				<description><![CDATA[Prazská 1659<br><b>263 01 Dobrís</b><br>]]></description>
+				<name>Lidl Dobrís</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.18445,49.78859</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139062">
+				<description><![CDATA[Zámecká 186<br><b>472 01 Doksy</b><br>]]></description>
+				<name>Lidl Doksy</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.64902,50.56599</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139063">
+				<description><![CDATA[Osecká 1525<br><b>419 01 Duchcov</b><br>]]></description>
+				<name>Lidl Duchcov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.74590,50.60719</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139064">
+				<description><![CDATA[Americká 336/44<br><b>351 01 Frantiskovy Lázne</b><br>]]></description>
+				<name>Lidl Frantiskovy Lázne</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.34626,50.12754</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139065">
+				<description><![CDATA[Frýdlantská 2197<br><b>738 01 Frýdek-Místek</b><br>]]></description>
+				<name>Lidl Frýdek-Místek</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.34857,49.66693</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139066">
+				<description><![CDATA[Horymírova 3450<br><b>738 01 Frýdek-Místek</b><br>]]></description>
+				<name>Lidl Frýdek-Místek</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.36380,49.68404</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139067">
+				<description><![CDATA[Zahradní 1463<br><b>464 01 Frýdlant</b><br>]]></description>
+				<name>Lidl Frýdlant</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.08324,50.92048</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139068">
+				<description><![CDATA[U Nádrazí 1233/4<br><b>736 01 Havírov</b><br>]]></description>
+				<name>Lidl Havírov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.41186,49.79263</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139069">
+				<description><![CDATA[Zizkova 3745<br><b>580 01 Havlíckuv Brod</b><br>]]></description>
+				<name>Lidl Havlíckuv Brod</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.60001,49.60668</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139070">
+				<description><![CDATA[Adámkova Trída 1647<br><b>539 01 Hlinsko</b><br>]]></description>
+				<name>Lidl Hlinsko</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.91401,49.76450</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139071">
+				<description><![CDATA[Celní 2 1461<br><b>748 01 Hlucín</b><br>]]></description>
+				<name>Lidl Hlucín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.18325,49.89731</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139072">
+				<description><![CDATA[Dvorákova 4054/10<br><b>695 01 Hodonín</b><br>]]></description>
+				<name>Lidl Hodonín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.12123,48.85191</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139073">
+				<description><![CDATA[Masarykova 1649<br><b>769 01 Holesov</b><br>]]></description>
+				<name>Lidl Holesov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.58509,49.32901</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139074">
+				<description><![CDATA[Hradecká 1180<br><b>534 01 Holice</b><br>]]></description>
+				<name>Lidl Holice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.98176,50.07352</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139075">
+				<description><![CDATA[Nádrazní 172<br><b>345 62 Holýsov</b><br>]]></description>
+				<name>Lidl Holýsov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.10196,49.59615</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139076">
+				<description><![CDATA[Riegrova 2221<br><b>508 01 Horice</b><br>]]></description>
+				<name>Lidl Horice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.63416,50.37026</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139077">
+				<description><![CDATA[Suchdolska 934<br><b>252 62 Horomerice</b><br>]]></description>
+				<name>Lidl Horomerice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.34456,50.14145</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139078">
+				<description><![CDATA[Fügnerova 1543/10a<br><b>268 01 Horovice</b><br>]]></description>
+				<name>Lidl Horovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.89760,49.83803</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139079">
+				<description><![CDATA[Csl. Armády 488<br><b>253 01 Hostivice</b><br>]]></description>
+				<name>Lidl Hostivice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.25441,50.08110</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139080">
+				<description><![CDATA[Brnenská 1870/33a<br><b>500 06 Hradec Králové</b><br>]]></description>
+				<name>Lidl Hradec Králové</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.85076,50.18981</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139081">
+				<description><![CDATA[Na Okrouhlíku 1707/25a<br><b>500 02 Hradec Králové</b><br>
+				]]></description>
+				<name>Lidl Hradec Králové</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>1.2</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.81386,50.21776</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139082">
+				<description><![CDATA[Víta Nejedlého 1083/14<br><b>500 03 Hradec Králové</b><br>]]></description>
+				<name>Lidl Hradec Králové</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.85880,50.21379</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139083">
+				<description><![CDATA[Nová 1992<br><b>753 01 Hranice</b><br>]]></description>
+				<name>Lidl Hranice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.74810,49.55830</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139084">
+				<description><![CDATA[Hálkova 1647<br><b>396 01 Humpolec</b><br>]]></description>
+				<name>Lidl Humpolec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.35587,49.53870</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139085">
+				<description><![CDATA[Brnenská 1359/58<br><b>693 01 Hustopece</b><br>]]></description>
+				<name>Lidl Hustopece</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.73090,48.94554</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139086">
+				<description><![CDATA[Riegrova 5030/23<br><b>466 01 Jablonec Nad Nisou</b><br>]]></description>
+				<name>Lidl Jablonec Nad Nisou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.16326,50.73151</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139087">
+				<description><![CDATA[Hradecká 952<br><b>551 01 Jaromer</b><br>]]></description>
+				<name>Lidl Jaromer</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.90797,50.34573</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139088">
+				<description><![CDATA[Budejovická 1143<br><b>252 42 Jesenice</b><br>]]></description>
+				<name>Lidl Jesenice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.51705,49.96541</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139089">
+				<description><![CDATA[Bezrucova 1330/4a<br><b>790 01 Jeseník</b><br>]]></description>
+				<name>Lidl Jeseník</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.20589,50.23597</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139090">
+				<description><![CDATA[Riegrova 1149<br><b>506 01 Jicín</b><br>]]></description>
+				<name>Lidl Jicín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.35696,50.43255</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139091">
+				<description><![CDATA[Jiráskova 5201/66<br><b>586 00 Jihlava</b><br>]]></description>
+				<name>Lidl Jihlava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.57545,49.40273</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139092">
+				<description><![CDATA[Okruzní 4967/15<br><b>586 01 Jihlava</b><br>]]></description>
+				<name>Lidl Jihlava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.60614,49.40154</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139093">
+				<description><![CDATA[U. Knihovny 1174/ii<br><b>377 01 Jindrichuv Hradec</b><br>]]></description>
+				<name>Lidl Jindrichuv Hradec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.01060,49.15120</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139094">
+				<description><![CDATA[Kpt. Jarose 1954<br><b>432 01 Kadan</b><br>]]></description>
+				<name>Lidl Kadan</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.27116,50.38390</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139095">
+				<description><![CDATA[Dolní Kamenná 1025/8<br><b>360 05 Karlovy Vary</b><br>]]></description>
+				<name>Lidl Karlovy Vary</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.84948,50.23200</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139096">
+				<description><![CDATA[Vítezná 2117/21<br><b>360 01 Karlovy Vary</b><br>]]></description>
+				<name>Lidl Karlovy Vary</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.87360,50.23442</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139097">
+				<description><![CDATA[Tr. 17. Listopadu 873/6<br><b>733 24 Karviná</b><br>]]></description>
+				<name>Lidl Karviná</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.55545,49.84466</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139098">
+				<description><![CDATA[Americká 2768<br><b>272 00 Kladno</b><br>]]></description>
+				<name>Lidl Kladno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.11381,50.12999</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139099">
+				<description><![CDATA[Dukelských Hrdinu 1640<br><b>272 52 Kladno</b><br>]]></description>
+				<name>Lidl Kladno</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.10593,50.14680</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139100">
+				<description><![CDATA[Chomutovská 211<br><b>431 51 Klásterec nad Ohrí</b><br>]]></description>
+				<name>Lidl Klásterec nad Ohrí</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.17767,50.38655</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139101">
+				<description><![CDATA[Domazlická 884<br><b>339 01 Klatovy</b><br>]]></description>
+				<name>Lidl Klatovy</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.28684,49.39516</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139102">
+				<description><![CDATA[Prazská 1005<br><b>280 00 Kolín</b><br>]]></description>
+				<name>Lidl Kolín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.18373,50.03130</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139103">
+				<description><![CDATA[Stefánikova 1409/18c<br><b>742 21 Koprivnice</b><br>]]></description>
+				<name>Lidl Koprivnice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.14728,49.60016</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139104">
+				<description><![CDATA[Zahradní 1052<br><b>293 06 Kosmonosy</b><br>]]></description>
+				<name>Lidl Kosmonosy</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.92406,50.43306</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139105">
+				<description><![CDATA[Veltruská 808<br><b>278 01 Kralupy Nad Vltavou</b><br>]]></description>
+				<name>Lidl Kralupy Nad Vltavou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.31949,50.25211</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139106">
+				<description><![CDATA[Revolucní 958/49<br><b>794 01 Krnov</b><br>]]></description>
+				<name>Lidl Krnov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.69278,50.08805</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139107">
+				<description><![CDATA[Velehradská 451/4b<br><b>767 58 Kromeríz</b><br>]]></description>
+				<name>Lidl Kromeríz</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.39102,49.29221</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139108">
+				<description><![CDATA[Tyrsova 1731/66<br><b>664 34 Kurim</b><br>]]></description>
+				<name>Lidl Kurim</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.54689,49.29683</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139109">
+				<description><![CDATA[Nerudova 267<br><b>697 01 Kyjov</b><br>]]></description>
+				<name>Lidl Kyjov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.12461,49.00691</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139110">
+				<description><![CDATA[Lorencova Alej 1091<br><b>563 01 Lanskroun</b><br>]]></description>
+				<name>Lidl Lanskroun</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.60974,49.90948</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139111">
+				<description><![CDATA[Prazská 505<br><b>252 29 Lety U Dobrichovic</b><br>]]></description>
+				<name>Lidl Lety U Dobrichovic</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.26365,49.92542</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139112">
+				<description><![CDATA[Letná 641/59<br><b>460 01 Liberec</b><br>]]></description>
+				<name>Lidl Liberec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.04085,50.78123</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139113">
+				<description><![CDATA[Lípová 664/2<br><b>460 01 Liberec</b><br>]]></description>
+				<name>Lidl Liberec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.05920,50.76522</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139114">
+				<description><![CDATA[Vratislavická 1098/22<br><b>460 01 Liberec</b><br>]]></description>
+				<name>Lidl Liberec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.07107,50.74797</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139115">
+				<description><![CDATA[Neffova 299<br><b>751 31 Lipník nad Becvou</b><br>]]></description>
+				<name>Lidl Lipník nad Becvou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.58317,49.52656</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139116">
+				<description><![CDATA[U. Bílého sloupu 2147<br><b>436 01 Litvínov</b><br>]]></description>
+				<name>Lidl Litvínov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.60555,50.59283</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139117">
+				<description><![CDATA[Postoloprtská 2786<br><b>440 01 Louny</b><br>]]></description>
+				<name>Lidl Louny</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.78038,50.35668</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139118">
+				<description><![CDATA[Tovární 1173<br><b>410 02 Lovosice</b><br>]]></description>
+				<name>Lidl Lovosice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.04449,50.51338</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139119">
+				<description><![CDATA[Chebská 836/23a<br><b>353 01 Mariánské Lázne</b><br>]]></description>
+				<name>Lidl Mariánské Lázne</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.69431,49.96385</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139120">
+				<description><![CDATA[Mladoboleslavská 3617<br><b>276 01 Melník</b><br>]]></description>
+				<name>Lidl Melník</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.49123,50.34842</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139121">
+				<description><![CDATA[28. Ríjna 1607/16 1607/16<br><b>692 01 Mikulov</b><br>]]></description>
+				<name>Lidl Mikulov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.62699,48.80597</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139122">
+				<description><![CDATA[Jicínská 1369<br><b>293 01 Mladá Boleslav</b><br>]]></description>
+				<name>Lidl Mladá Boleslav</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.93354,50.41160</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139123">
+				<description><![CDATA[K. Vorechu 1494<br><b>295 01 Mnichovo Hradiste</b><br>]]></description>
+				<name>Lidl Mnichovo Hradiste</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.97190,50.51604</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139124">
+				<description><![CDATA[1. Máje 914/19<br><b>789 85 Mohelnice</b><br>]]></description>
+				<name>Lidl Mohelnice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.93049,49.77485</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139125">
+				<description><![CDATA[Brnenská 1587/65<br><b>571 01 Moravská Trebová</b><br>]]></description>
+				<name>Lidl Moravská Trebová</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.65764,49.75099</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139126">
+				<description><![CDATA[Velebudická 3303/1a<br><b>434 01 Most</b><br>]]></description>
+				<name>Lidl Most</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.65333,50.49101</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139127">
+				<description><![CDATA[Plhovská 2066<br><b>547 01 Náchod</b><br>]]></description>
+				<name>Lidl Náchod</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.16806,50.41869</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139128">
+				<description><![CDATA[Palackého 1357<br><b>763 61 Napajedla</b><br>]]></description>
+				<name>Lidl Napajedla</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.51739,49.17740</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139129">
+				<description><![CDATA[Kostelecká 257<br><b>277 11 Neratovice</b><br>]]></description>
+				<name>Lidl Neratovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.52525,50.25493</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139130">
+				<description><![CDATA[Prazská 520<br><b>509 01 Nová Paka</b><br>]]></description>
+				<name>Lidl Nová Paka</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.51975,50.48834</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139131">
+				<description><![CDATA[Koieková 1555<br><b>592 31 Nové Mesto Na Morave</b><br>]]></description>
+				<name>Lidl Nové Mesto Na Morave</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.07962,49.56789</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139132">
+				<description><![CDATA[Karlovarská 1207<br><b>271 01 Nové Strasecí</b><br>]]></description>
+				<name>Lidl Nové Strasecí</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.89549,50.15771</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139133">
+				<description><![CDATA[B. Egermanna 851<br><b>473 01 Nový Bor</b><br>]]></description>
+				<name>Lidl Nový Bor</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.54060,50.76617</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139134">
+				<description><![CDATA[Revolucní Trída 221<br><b>504 01 Nový Bydzov</b><br>]]></description>
+				<name>Lidl Nový Bydzov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.48897,50.23838</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139135">
+				<description><![CDATA[Sokolovská 2126/5<br><b>741 01 Nový Jicín</b><br>]]></description>
+				<name>Lidl Nový Jicín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.01064,49.59768</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139136">
+				<description><![CDATA[Kolínská 1701<br><b>288 00 Nymburk</b><br>]]></description>
+				<name>Lidl Nymburk</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.04506,50.17848</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139137">
+				<description><![CDATA[Revolucní 1336<br><b>330 23 Nýrany</b><br>]]></description>
+				<name>Lidl Nýrany</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.20313,49.71318</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139138">
+				<description><![CDATA[Lazecká 49/33<br><b>779 00 Olomouc</b><br>]]></description>
+				<name>Lidl Olomouc</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.25175,49.60295</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139139">
+				<description><![CDATA[Sladovní 113/1<br><b>779 00 Olomouc</b><br>]]></description>
+				<name>Lidl Olomouc</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.27790,49.60357</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139140">
+				<description><![CDATA[Velkomoravská 488/29<br><b>772 00 Olomouc</b><br>]]></description>
+				<name>Lidl Olomouc</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.24826,49.58218</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139141">
+				<description><![CDATA[Dukelská 2974/2<br><b>746 01 Opava</b><br>]]></description>
+				<name>Lidl Opava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.88917,49.93724</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139142">
+				<description><![CDATA[Tesínská 2912/36<br><b>746 01 Opava</b><br>]]></description>
+				<name>Lidl Opava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.91402,49.93440</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139143">
+				<description><![CDATA[17. Listopadu 6225/74<br><b>708 00 Ostrava</b><br>]]></description>
+				<name>Lidl Ostrava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.16865,49.83743</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139144">
+				<description><![CDATA[Jugoslávská 3139/30<br><b>700 30 Ostrava</b><br>]]></description>
+				<name>Lidl Ostrava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.24348,49.80418</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139145">
+				<description><![CDATA[Plzenská 3042/383<br><b>700 30 Ostrava</b><br>]]></description>
+				<name>Lidl Ostrava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.24542,49.77504</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139146">
+				<description><![CDATA[Sjízdná 1157/1<br><b>721 00 Ostrava</b><br>]]></description>
+				<name>Lidl Ostrava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.19819,49.82615</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139147">
+				<description><![CDATA[U. Stadionu 3255/1<br><b>729 29 Ostrava</b><br>]]></description>
+				<name>Lidl Ostrava</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.26272,49.83395</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139148">
+				<description><![CDATA[Obchodní 1446<br><b>363 01 Ostrov</b><br>]]></description>
+				<name>Lidl Ostrov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.94099,50.31204</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139149">
+				<description><![CDATA[Napajedelská 1809<br><b>765 23 Otrokovice</b><br>]]></description>
+				<name>Lidl Otrokovice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.53686,49.19877</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139150">
+				<description><![CDATA[Belehradská 548<br><b>530 09 Pardubice</b><br>]]></description>
+				<name>Lidl Pardubice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.76521,50.04779</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139151">
+				<description><![CDATA[Palackého 2760<br><b>530 02 Pardubice</b><br>]]></description>
+				<name>Lidl Pardubice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.75006,50.03298</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139152">
+				<description><![CDATA[Prazská 2174<br><b>393 01 Pelhrimov</b><br>]]></description>
+				<name>Lidl Pelhrimov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.21491,49.43789</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139153">
+				<description><![CDATA[Nádrazní 2558<br><b>397 01 Písek</b><br>]]></description>
+				<name>Lidl Písek</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.14515,49.29873</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139154">
+				<description><![CDATA[Sadová 918<br><b>348 15 Planá U Mariánských Lázní</b><br>]]></description>
+				<name>Lidl Planá U Mariánských Lázní</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.73406,49.86574</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139155">
+				<description><![CDATA[Doudlevecká 2834/67a<br><b>301 00 Plzen</b><br>]]></description>
+				<name>Lidl Plzen</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.37853,49.73502</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139156">
+				<description><![CDATA[Gerská 2070/1<br><b>323 00 Plzen</b><br>]]></description>
+				<name>Lidl Plzen</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.36486,49.77256</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139157">
+				<description><![CDATA[Tesínská 1486/19<br><b>312 00 Plzen</b><br>]]></description>
+				<name>Lidl Plzen</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.41114,49.75043</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139158">
+				<description><![CDATA[Vejprnická 1157/32<br><b>318 00 Plzen</b><br>]]></description>
+				<name>Lidl Plzen</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.34014,49.74372</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139159">
+				<description><![CDATA[Krumlovská 9<br><b>383 01 Prachatice</b><br>]]></description>
+				<name>Lidl Prachatice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.00110,49.00993</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139160">
+				<description><![CDATA[Na Porící 23<br><b>110 00 Praha 1</b><br>]]></description>
+				<name>Lidl Praha 1</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.43408,50.09012</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139161">
+				<description><![CDATA[V. Korytech 1535/65<br><b>100 00 Praha 10</b><br>]]></description>
+				<name>Lidl Praha 10</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.49269,50.06422</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139162">
+				<description><![CDATA[Vrsovická 1525/1a<br><b>101 00 Praha 10</b><br>]]></description>
+				<name>Lidl Praha 10</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.44482,50.06676</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139163">
+				<description><![CDATA[Opatovská 960/20<br><b>149 00 Praha 11</b><br>]]></description>
+				<name>Lidl Praha 11</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.53330,50.03107</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139164">
+				<description><![CDATA[Vojtískova 1783<br><b>142 00 Praha 11</b><br>]]></description>
+				<name>Lidl Praha 11</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.49290,50.02589</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139165">
+				<description><![CDATA[Cervenanského 2723/29<br><b>155 00 Praha 13</b><br>]]></description>
+				<name>Lidl Praha 13</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.33427,50.04054</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139166">
+				<description><![CDATA[Nározní 1488/8<br><b>158 00 Praha 13</b><br>]]></description>
+				<name>Lidl Praha 13</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.33100,50.05365</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139167">
+				<description><![CDATA[Kolbenova 956/27a<br><b>198 00 Praha 14</b><br>]]></description>
+				<name>Lidl Praha 14</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.53734,50.10967</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139168">
+				<description><![CDATA[Hornomecholupská 576<br><b>102 00 Praha 15</b><br>]]></description>
+				<name>Lidl Praha 15</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.54598,50.04721</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139169">
+				<description><![CDATA[Vladycká 1532/2<br><b>102 00 Praha 15</b><br>]]></description>
+				<name>Lidl Praha 15</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.52679,50.05327</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139170">
+				<description><![CDATA[Na Baních 1475<br><b>156 00 Praha 16</b><br>]]></description>
+				<name>Lidl Praha 16</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.38162,49.96354</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139171">
+				<description><![CDATA[Slánská 1699/1a<br><b>163 00 Praha 17</b><br>]]></description>
+				<name>Lidl Praha 17</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.31138,50.07390</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139172">
+				<description><![CDATA[Tupolevova 722<br><b>190 00 Praha 18</b><br>]]></description>
+				<name>Lidl Praha 18</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.50608,50.14297</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139173">
+				<description><![CDATA[Kbelská C. P. 919<br><b>190 00 Praha 19</b><br>]]></description>
+				<name>Lidl Praha 19</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.51145,50.12340</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139174">
+				<description><![CDATA[Na Slupi 2103<br><b>120 00 Praha 2</b><br>]]></description>
+				<name>Lidl Praha 2</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.42263,50.06648</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139175">
+				<description><![CDATA[Hartenberská 2533/2<br><b>193 00 Praha 20</b><br>]]></description>
+				<name>Lidl Praha 20</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.59087,50.11039</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139176">
+				<description><![CDATA[Novosibrinská 2227<br><b>190 16 Praha 21</b><br>]]></description>
+				<name>Lidl Praha 21</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.66005,50.07548</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139177">
+				<description><![CDATA[Konevova 1962<br><b>130 00 Praha 3</b><br>]]></description>
+				<name>Lidl Praha 3</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.47084,50.09112</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139178">
+				<description><![CDATA[Lhotecká 444/3a<br><b>143 00 Praha 4</b><br>]]></description>
+				<name>Lidl Praha 4</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.42515,50.01522</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139179">
+				<description><![CDATA[Olbrachtova 1946/64<br><b>140 00 Praha 4</b><br>]]></description>
+				<name>Lidl Praha 4</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.44899,50.04458</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139180">
+				<description><![CDATA[V Stíhlách 226<br><b>142 00 Praha 4</b><br>]]></description>
+				<name>Lidl Praha 4</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.45302,50.01954</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139181">
+				<description><![CDATA[K. Barrandovu 1139/3<br><b>152 00 Praha 5</b><br>]]></description>
+				<name>Lidl Praha 5</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.38322,50.03329</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139182">
+				<description><![CDATA[Lodzská 30<br><b>181 00 Praha 8</b><br>]]></description>
+				<name>Lidl Praha 8</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.42914,50.13232</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139183">
+				<description><![CDATA[Ceskobrodská 200/23<br><b>190 00 Praha 9</b><br>]]></description>
+				<name>Lidl Praha 9</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.51353,50.09292</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139184">
+				<description><![CDATA[Ceskomoravská 930/22<br><b>190 00 Praha 9</b><br>]]></description>
+				<name>Lidl Praha 9</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.49996,50.10187</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139185">
+				<description><![CDATA[Lipnická 3253<br><b>750 02 Prerov</b><br>]]></description>
+				<name>Lidl Prerov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.44041,49.46217</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139186">
+				<description><![CDATA[Evropská 337<br><b>261 01 Príbram</b><br>]]></description>
+				<name>Lidl Príbram</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.00587,49.69507</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139187">
+				<description><![CDATA[Anenská 4511/27<br><b>796 01 Prostejov</b><br>]]></description>
+				<name>Lidl Prostejov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.09093,49.46947</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139188">
+				<description><![CDATA[Újezd 2169/19<br><b>796 01 Prostejov</b><br>]]></description>
+				<name>Lidl Prostejov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.11907,49.47078</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139189">
+				<description><![CDATA[Uhríneveská 850<br><b>252 43 Pruhonice</b><br>]]></description>
+				<name>Lidl Pruhonice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.56518,50.00455</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139190">
+				<description><![CDATA[Dukelských Hrdinu 2664<br><b>269 01 Rakovník</b><br>]]></description>
+				<name>Lidl Rakovník</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.71490,50.10716</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139191">
+				<description><![CDATA[Cernokostelecká 2110<br><b>251 01 Rícany</b><br>]]></description>
+				<name>Lidl Rícany</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.65821,50.00377</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139192">
+				<description><![CDATA[Plzenská 1031<br><b>337 01 Rokycany</b><br>]]></description>
+				<name>Lidl Rokycany</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.58836,49.74315</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139193">
+				<description><![CDATA[Brnenská 1342<br><b>665 01 Rosice</b><br>]]></description>
+				<name>Lidl Rosice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.40324,49.18384</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139194">
+				<description><![CDATA[Alej 17. Listopadu 2692<br><b>413 01 Roudnice Nad Labem</b><br>]]></description>
+				<name>Lidl Roudnice Nad Labem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.24626,50.42314</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139195">
+				<description><![CDATA[Mezirícská 2302<br><b>756 61 Roznov pod Radhostem</b><br>]]></description>
+				<name>Lidl Roznov pod Radhostem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.13223,49.46004</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139196">
+				<description><![CDATA[Havlíckovo Námestí 1399<br><b>252 19 Rudná</b><br>]]></description>
+				<name>Lidl Rudná</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.22884,50.03459</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139197">
+				<description><![CDATA[Prazská 396<br><b>408 01 Rumburk</b><br>]]></description>
+				<name>Lidl Rumburk</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.55858,50.94500</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139198">
+				<description><![CDATA[Jiráskova 1569<br><b>516 01 Rychnov nad Kneznou</b><br>]]></description>
+				<name>Lidl Rychnov nad Kneznou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.27136,50.16296</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139199">
+				<description><![CDATA[Okruzní 1339/12<br><b>795 01 Rýmarov</b><br>]]></description>
+				<name>Lidl Rýmarov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.27260,49.93022</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139200">
+				<description><![CDATA[Sedlecká 1170<br><b>264 01 Sedlcany</b><br>]]></description>
+				<name>Lidl Sedlcany</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.42619,49.65346</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139201">
+				<description><![CDATA[Nádrazní 586<br><b>513 01 Semily</b><br>]]></description>
+				<name>Lidl Semily</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.33013,50.60153</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139202">
+				<description><![CDATA[Ouvalova 427<br><b>274 01 Slaný</b><br>]]></description>
+				<name>Lidl Slaný</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.08971,50.22861</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139203">
+				<description><![CDATA[Obchodní 877<br><b>392 01 Sobeslav</b><br>]]></description>
+				<name>Lidl Sobeslav</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.71344,49.26412</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139204">
+				<description><![CDATA[K. H.Borovského 2145<br><b>356 01 Sokolov</b><br>]]></description>
+				<name>Lidl Sokolov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.67514,50.17534</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139205">
+				<description><![CDATA[Východní 2063<br><b>686 02 Staré Mesto</b><br>]]></description>
+				<name>Lidl Staré Mesto</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.45565,49.07730</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139206">
+				<description><![CDATA[Nádrazní 2445/33<br><b>785 01 Sternberk</b><br>]]></description>
+				<name>Lidl Sternberk</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.28804,49.72137</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139207">
+				<description><![CDATA[Ellerova 1291<br><b>386 01 Strakonice</b><br>]]></description>
+				<name>Lidl Strakonice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.91324,49.26057</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139208">
+				<description><![CDATA[Benesova 1530<br><b>349 01 Stríbro</b><br>]]></description>
+				<name>Lidl Stríbro</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.99558,49.75412</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139209">
+				<description><![CDATA[M. R. Stefánika 2991/30<br><b>787 01 Sumperk</b><br>]]></description>
+				<name>Lidl Sumperk</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.97665,49.96048</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139210">
+				<description><![CDATA[Hrádecká 1261<br><b>342 01 Susice</b><br>]]></description>
+				<name>Lidl Susice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.52149,49.24018</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139211">
+				<description><![CDATA[Kpt. Jaroze 836/66<br><b>568 01 Svitavy</b><br>]]></description>
+				<name>Lidl Svitavy</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.47880,49.74398</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139212">
+				<description><![CDATA[Kpt. Jarose 3047<br><b>390 02 Tábor</b><br>]]></description>
+				<name>Lidl Tábor</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.65126,49.41931</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139213">
+				<description><![CDATA[Sobeslavská 3069<br><b>390 02 Tábor</b><br>]]></description>
+				<name>Lidl Tábor</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.68679,49.39681</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139214">
+				<description><![CDATA[Moravská 2114<br><b>347 01 Tachov</b><br>]]></description>
+				<name>Lidl Tachov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>12.63600,49.80226</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139215">
+				<description><![CDATA[Krkonosská 658<br><b>468 41 Tanvald</b><br>]]></description>
+				<name>Lidl Tanvald</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.30745,50.73637</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139216">
+				<description><![CDATA[Novosedlická 3216<br><b>415 01 Teplice</b><br>]]></description>
+				<name>Lidl Teplice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.82158,50.64685</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139217">
+				<description><![CDATA[Znojemská 1382-hd<br><b>674 01 Trebíc</b><br>]]></description>
+				<name>Lidl Trebíc</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.88628,49.20328</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139218">
+				<description><![CDATA[Záluzská 1120<br><b>330 11 Tremosná</b><br>]]></description>
+				<name>Lidl Tremosná</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.39365,49.81839</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139219">
+				<description><![CDATA[Trocnovská 663<br><b>374 01 Trhové Sviny</b><br>]]></description>
+				<name>Lidl Trhové Sviny</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.62966,48.84387</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139220">
+				<description><![CDATA[Lidická 156<br><b>739 61 Trinec</b><br>]]></description>
+				<name>Lidl Trinec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.66603,49.67717</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139221">
+				<description><![CDATA[Polská 432<br><b>541 81 Trutnov</b><br>]]></description>
+				<name>Lidl Trutnov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.92356,50.56470</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139222">
+				<description><![CDATA[Prazská 2148<br><b>511 01 Turnov</b><br>]]></description>
+				<name>Lidl Turnov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.15581,50.58020</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139223">
+				<description><![CDATA[Prumyslová 570<br><b>375 01 Týn Nad Vltavou</b><br>]]></description>
+				<name>Lidl Týn Nad Vltavou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.41949,49.21769</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139224">
+				<description><![CDATA[Ing. Fr. Janecka 546<br><b>257 41 Týnec Nad Sázavou</b><br>]]></description>
+				<name>Lidl Týnec Nad Sázavou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.58887,49.83208</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139225">
+				<description><![CDATA[Marlsála Malinovského 436<br><b>686 01 Uherské Hradiste</b><br>]]></description>
+				<name>Lidl Uherské Hradiste</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.46516,49.05809</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139226">
+				<description><![CDATA[Vlcnovská 2462<br><b>688 01 Uherský Brod</b><br>]]></description>
+				<name>Lidl Uherský Brod</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.64507,49.02092</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139227">
+				<description><![CDATA[Vseborická 359/51<br><b>400 01 Ústí nad Labem</b><br>]]></description>
+				<name>Lidl Ústí nad Labem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.99645,50.68356</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139228">
+				<description><![CDATA[Výstupní 3422/2a<br><b>400 11 Ústí nad Labem</b><br>]]></description>
+				<name>Lidl Ústí nad Labem</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.04771,50.67358</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139229">
+				<description><![CDATA[Popradská 1510<br><b>562 06 Ústí Nad Orlicí</b><br>]]></description>
+				<name>Lidl Ústí Nad Orlicí</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.40350,49.97750</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139230">
+				<description><![CDATA[Roznovská 864<br><b>757 01 Valasské Mezirící</b><br>]]></description>
+				<name>Lidl Valasské Mezirící</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.98071,49.47766</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139231">
+				<description><![CDATA[Prazská 3330<br><b>407 47 Varnsdorf</b><br>]]></description>
+				<name>Lidl Varnsdorf</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.61797,50.90767</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139232">
+				<description><![CDATA[Masarykova Trída 170<br><b>698 01 Veselí Nad Moravou</b><br>]]></description>
+				<name>Lidl Veselí Nad Moravou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.38531,48.95510</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139233">
+				<description><![CDATA[Sklárská 584<br><b>385 01 Vimperk</b><br>]]></description>
+				<name>Lidl Vimperk</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.78742,49.05702</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139234">
+				<description><![CDATA[Budisovská 1010<br><b>749 01 Vítkov</b><br>]]></description>
+				<name>Lidl Vítkov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.74987,49.77582</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139235">
+				<description><![CDATA[Blanická 1831<br><b>258 01 Vlasim</b><br>]]></description>
+				<name>Lidl Vlasim</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.89443,49.70401</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139236">
+				<description><![CDATA[Táborská 894<br><b>259 01 Votice</b><br>]]></description>
+				<name>Lidl Votice</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.65074,49.63685</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139237">
+				<description><![CDATA[Lánovská 1545<br><b>543 01 Vrchlabí</b><br>]]></description>
+				<name>Lidl Vrchlabí</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.61854,50.62008</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139238">
+				<description><![CDATA[Generála Klapálka 798<br><b>755 01 Vsetín</b><br>]]></description>
+				<name>Lidl Vsetín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>18.00161,49.32748</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139239">
+				<description><![CDATA[Brnenská 471/11<br><b>682 01 Vyzkov</b><br>]]></description>
+				<name>Lidl Vyzkov</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.99219,49.27401</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139240">
+				<description><![CDATA[Hradecká 127<br><b>566 01 Vysoké Mýto</b><br>]]></description>
+				<name>Lidl Vysoké Mýto</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.15174,49.95622</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139241">
+				<description><![CDATA[Ceskoslovenské Armády 2151/30<br><b>789 01 Zábreh</b><br>]]></description>
+				<name>Lidl Zábreh</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.88373,49.87740</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139242">
+				<description><![CDATA[Volynských Cechu 3094<br><b>438 01 Zatec</b><br>]]></description>
+				<name>Lidl Zatec</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.54388,50.32324</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139243">
+				<description><![CDATA[Studentská 2215/2<br><b>591 01 Zdár nad Sázavou</b><br>]]></description>
+				<name>Lidl Zdár nad Sázavou</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.94197,49.56477</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139244">
+				<description><![CDATA[Prumyslová 897<br><b>468 22 Zelezný Brod</b><br>]]></description>
+				<name>Lidl Zelezný Brod</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>15.24902,50.64069</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139245">
+				<description><![CDATA[Díly VI 5478<br><b>760 01 Zlín</b><br>]]></description>
+				<name>Lidl Zlín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.69271,49.22530</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139246">
+				<description><![CDATA[Nábrezí 5428<br><b>760 01 Zlín</b><br>]]></description>
+				<name>Lidl Zlín</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.65372,49.22783</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="139247">
+				<description><![CDATA[Prímetická 3658/66<br><b>669 02 Znojmo</b><br>]]></description>
+				<name>Lidl Znojmo</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>16.04270,48.86676</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+			<Placemark id="155748">
+				<description><![CDATA[Plzenská 1939<br><b>266 01 Beroun</b><br>]]></description>
+				<name>Lidl Beroun</name>
+				<visibility>1</visibility>
+				<styleUrl>root://styles#default</styleUrl>
+				<Style>
+					<IconStyle>
+						<scale>0.6</scale>
+						<Icon>
+							<href>http://www.poi-service.de/icons/lidl.bmp</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0.8</scale>
+					</LabelStyle>
+				</Style>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>14.04685,49.95226</coordinates>
+				</Point>
+				<!-- (c) www.poi-service.info /.de /.com POI-Service GbR -->
+			</Placemark>
+
+		</Folder>
+	</Document>
+</kml>

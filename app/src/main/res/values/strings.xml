@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SmartNakup</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="productDeleteSuccesful_productdb">Produkt byl úspěšně smazán</string>
+    <string name="productDeleteUnsuccesful_productdb">Produkt nejde smazat</string>
+    <string name="titleFormAddtoCart_mainactiviy">Přidání produktu na seznam</string>
+    <string name="buttonFormAddToCart_mainactiviy">Vytvořit</string>
+    <string name="cartAddSuccesful_mainactivity">Položka ze seznamu přidána</string>
+    <string name="cartAddUnsuccesful_mainactivity">Položku se nepodařilo přidat</string>
+    <string name="noCartItems_mainactivity">Žádná položka nenalezena.</string>
+    <string name="edit">Editovat</string>
+    <string name="delete">Smazat</string>
+    <string name="titleFormEditCart_mainactivity">Položka na seznamu</string>
+    <string name="cartDeleteSuccesful_mainactivity">Položka v nákupním seznamu smazána</string>
+    <string name="cartDeleteUnsuccesful_mainactivity">Položku se nepodařilo smazat</string>
+    <string name="save">Uložit</string>
+    <string name="titleEditFormCart_mainactivity">Upravit položku v košíku</string>
+    <string name="cartEditFormSuccesful_mainactivity">Upravení položky v pořádku</string>
+    <string name="cartEditFormUnsuccesful_mainactivity">Nelze upravit položku</string>
+    <string name="sendCommentToMail">Poslat zprávu</string>
+    <string name="titleClearCart_mainactivity">Nový nákupní lístek</string>
+    <string name="messageClearCart_mainactivity">Předešlý seznam se smaže. Chcete pokračovat?</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="cartClearCartSuccesful_mainactivity">Seznam smazán</string>
+    <string name="cartClearCartUnsuccesful_mainactivity">Seznam nelze smazat</string>
+</resources>

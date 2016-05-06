@@ -33,6 +33,20 @@ public class TableControllerProductDB extends DatabaseHandler {
         return createSuccessful;
     }
 
+    public boolean createWithId(ObjectProduct objectProduct) {
+        ContentValues values = new ContentValues();
+        values.put("id", objectProduct.getId());
+        values.put("name", objectProduct.getName());
+        values.put("xcor", objectProduct.getXcor());
+        values.put("ycor", objectProduct.getYcor());
+
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        boolean createSuccessful = db.insert("products", null, values) > 0;
+        db.close();
+        return createSuccessful;
+    }
+
     public int count() {
 
         SQLiteDatabase db = this.getWritableDatabase();
@@ -43,6 +57,21 @@ public class TableControllerProductDB extends DatabaseHandler {
 
         return recordCount;
 
+    }
+
+    public boolean deleteTable() {
+        boolean deleteSuccessful = false;
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        try {
+            db.delete("products",null,null);
+            deleteSuccessful = true;
+        } catch (Exception e) {
+        }
+
+        db.close();
+
+        return deleteSuccessful;
     }
 
     public List<ObjectProduct> read() {

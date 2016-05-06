@@ -13,18 +13,31 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.client.ChildEventListener;
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
+import java.util.ArrayList;
 import java.util.List;
 
 import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
 import uhk.cz.smartnakup.tables.TableControllerProductCart;
 import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.utils.InternetUtilsForFirebase;
 
 public class ProductDBActivity extends AppCompatActivity {
+    Firebase mRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Firebase.setAndroidContext(this);
+        mRef = new Firebase("https://brilliant-torch-5232.firebaseio.com/products");
+
         setContentView(R.layout.activity_product_db);
         countRecords();
         readRecords();
@@ -104,12 +117,16 @@ public class ProductDBActivity extends AppCompatActivity {
                                     boolean deleteSuccessful = false;
                                     ObjectProduct objectProduct = new TableControllerProductDB(context).readSingleRecord(Integer.parseInt(id));
                                     ObjectCart objectCart = new TableControllerProductCart(context).readSingleRecordByProductId(objectProduct.getId());
-                                    if (objectCart == null){
+                                    if (objectCart == null) {
                                         deleteSuccessful = new TableControllerProductDB(context).delete(Integer.parseInt(id));
+                                        if (InternetUtilsForFirebase.haveInternet(context)) {
+                                            Firebase.setAndroidContext(context);
+                                            mRef = new Firebase("https://brilliant-torch-5232.firebaseio.com/products");
+                                            InternetUtilsForFirebase.deleteProduct(mRef, id);
+                                        } else {
+                                            Toast.makeText(ProductDBActivity.this, R.string.noInternetAcces, Toast.LENGTH_SHORT).show();
+                                        }
                                     }
-
-
-
 
                                     if (deleteSuccessful) {
                                         Toast.makeText(context, R.string.productDeleteSuccesful_productdb, Toast.LENGTH_SHORT).show();

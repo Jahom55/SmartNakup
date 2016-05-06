@@ -25,6 +25,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
 import java.util.List;
 
 import uhk.cz.smartnakup.db.ObjectCart;
@@ -120,7 +125,7 @@ public class MainActivity extends AppCompatActivity
         new AlertDialog.Builder(context)
                 .setView(formElementsView)
                 .setTitle(R.string.titleFormAddtoCart_mainactiviy)
-                .setPositiveButton(R.string.buttonFormAddToCart_mainactiviy,
+                .setPositiveButton(R.string.create,
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
 
@@ -189,10 +194,66 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            synchronizateProductsTables(MainActivity.this);
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    //TODO ASync task na synchronizovani
+    private void synchronizateProductsTables(Context context1) {
+        final Context context = context1;
+        new AlertDialog.Builder(context)
+                .setTitle(R.string.titleSynchronizate_mainactivity)
+                .setMessage(R.string.messageSynchronizate_mainactivity)
+                .setPositiveButton(R.string.yes,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                boolean deleteSuccess = new TableControllerProductCart(context).deleteTable();
+
+
+                                final TableControllerProductDB controller = new TableControllerProductDB(context);
+                                controller.deleteTable();
+                                Firebase.setAndroidContext(context);
+                                Firebase mRef = new Firebase("https://brilliant-torch-5232.firebaseio.com/products");
+                                mRef.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(DataSnapshot dataSnapshot) {
+                                        for (DataSnapshot productsSnap : dataSnapshot.getChildren()){
+                                            ObjectProduct prod = productsSnap.getValue(ObjectProduct.class);
+                                            prod.setId(prod.getId());
+                                            controller.createWithId(prod);
+                                        }
+                                    }
+
+                                    @Override
+                                    public void onCancelled(FirebaseError firebaseError) {
+
+                                    }
+                                });
+
+
+                                readRecords();
+                                countRecords();
+                                dialog.cancel();
+                            }
+
+                        })
+                .setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+                    public void onClick(final DialogInterface dialog, final int id) {
+                        dialog.cancel();
+                    }
+                }).show();
+
+
+
+
+
+
+
+
+
     }
 
     @SuppressWarnings("StatementWithEmptyBody")

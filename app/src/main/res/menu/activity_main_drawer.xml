@@ -19,6 +19,14 @@
     <item android:title="Komunikace">
         <menu>
             <item
+                android:id="@+id/kontaktFb"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Lístek - FB" />
+            <item
+                android:id="@+id/kontaktEmail"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Lístek - Email" />
+            <item
                 android:id="@+id/kontakt"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Kontakt" />

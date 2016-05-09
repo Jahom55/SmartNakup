@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.view.LayoutInflater;
@@ -200,8 +201,6 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-
-    //TODO ASync task na synchronizovani
     private void synchronizateProductsTables(Context context1) {
         final Context context = context1;
         new AlertDialog.Builder(context)
@@ -210,30 +209,9 @@ public class MainActivity extends AppCompatActivity
                 .setPositiveButton(R.string.yes,
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-                                boolean deleteSuccess = new TableControllerProductCart(context).deleteTable();
-
-
                                 final TableControllerProductDB controller = new TableControllerProductDB(context);
                                 controller.deleteTable();
-                                Firebase.setAndroidContext(context);
-                                Firebase mRef = new Firebase("https://brilliant-torch-5232.firebaseio.com/products");
-                                mRef.addValueEventListener(new ValueEventListener() {
-                                    @Override
-                                    public void onDataChange(DataSnapshot dataSnapshot) {
-                                        for (DataSnapshot productsSnap : dataSnapshot.getChildren()){
-                                            ObjectProduct prod = productsSnap.getValue(ObjectProduct.class);
-                                            prod.setId(prod.getId());
-                                            controller.createWithId(prod);
-                                        }
-                                    }
-
-                                    @Override
-                                    public void onCancelled(FirebaseError firebaseError) {
-
-                                    }
-                                });
-
-
+                                new SynchronizateProductsFromFB().execute(context);
                                 readRecords();
                                 countRecords();
                                 dialog.cancel();
@@ -281,11 +259,57 @@ public class MainActivity extends AppCompatActivity
             } catch (android.content.ActivityNotFoundException ex) {
             }
 
+        } else if (id == R.id.kontaktEmail) {
+            Intent i = new Intent(Intent.ACTION_SEND);
+            i.setType("message/rfc822");
+            i.putExtra(Intent.EXTRA_SUBJECT, "Nákupní lístek");
+            i.putExtra(Intent.EXTRA_TEXT,getStringFromTableCart());
+            try {
+                startActivity(Intent.createChooser(i, "Send email to friend"));
+            } catch (android.content.ActivityNotFoundException ex) {
+            }
+        }else if (id == R.id.kontaktFb) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent
+                    .putExtra(Intent.EXTRA_TEXT,
+                            "" + getStringFromTableCart() + "Diky!"   );
+            sendIntent.setType("text/plain");
+            sendIntent.setPackage("com.facebook.orca");
+            try {
+                startActivity(sendIntent);
+            } catch (android.content.ActivityNotFoundException ex) {
+                Toast.makeText(MainActivity.this, "Nemate messanger.", Toast.LENGTH_SHORT).show();
+            }
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private String getStringFromTableCart(){
+        TableControllerProductCart controller = new TableControllerProductCart(this);
+        TableControllerProductDB controllerPro = new TableControllerProductDB(this);
+        List<ObjectCart> products = controller.read();
+        StringBuilder stringB = new StringBuilder();
+        if(products.isEmpty()){
+            return "Nic v kosiku.";
+        } else {
+            stringB.append("Ahoj!\n" +
+                    "Kup prosím tyto věci: \n");
+            for (ObjectCart cart: products) {
+                stringB.append(controllerPro.readSingleRecord(cart.getProduct()).getName());
+                stringB.append(" ");
+                stringB.append(cart.getQuantity());
+                stringB.append("x");
+                stringB.append("\n");
+            }
+            stringB.append("Díky!");
+        }
+        return stringB.toString();
+
+
     }
 
     public void countRecords() {
@@ -328,7 +352,6 @@ public class MainActivity extends AppCompatActivity
                 chYes.setTag(Integer.toString(id));
                 chYes.setChecked(obj.getBought() == 1);
                 chYes.setOnCheckedChangeListener(OnCheckedChangeListener());
-
 
                 textViewProductNameItem.setOnLongClickListener(OnlongClickProductCartListener());
 
@@ -443,4 +466,40 @@ public class MainActivity extends AppCompatActivity
                         }).show();
 
     }
+
+    private class SynchronizateProductsFromFB extends AsyncTask<Context, Void, String> {
+
+        @Override
+        protected String doInBackground(final Context... params) {
+            Firebase.setAndroidContext(params[0]);
+            Firebase mRef = new Firebase("https://brilliant-torch-5232.firebaseio.com/products");
+            mRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    for (DataSnapshot productsSnap : dataSnapshot.getChildren()){
+                        ObjectProduct prod = productsSnap.getValue(ObjectProduct.class);
+                        prod.setId(prod.getId());
+
+                        new TableControllerProductDB(params[0]).createWithId(prod);
+                    }
+                }
+
+                @Override
+                public void onCancelled(FirebaseError firebaseError) {
+
+                }
+            });
+         return "";
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            Toast.makeText(MainActivity.this, R.string.toastSynchronizate_mainactivityAsync, Toast.LENGTH_SHORT).show();
+        }
+    }
 }
+
+
+
+
+

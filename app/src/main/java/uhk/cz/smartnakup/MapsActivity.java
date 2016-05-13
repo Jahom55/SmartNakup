@@ -2,7 +2,6 @@ package uhk.cz.smartnakup;
 
 import android.Manifest;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -12,7 +11,6 @@ import android.location.LocationManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -20,7 +18,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.maps.android.kml.KmlLayer;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -40,7 +37,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
 
 
         LocationListener locationListener = new LocationListener() {
@@ -73,8 +69,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             return;
         }
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-                0,
-                0,
+                1000,
+                5,
                 locationListener);
 
         if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
@@ -82,9 +78,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
         lastKnowLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-
-
-
 
 
     }
@@ -96,7 +89,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if (lastKnowLocation != null) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(lastKnowLocation.getLatitude(), lastKnowLocation.getLongitude())));
             mMap.moveCamera(CameraUpdateFactory.zoomTo(15));
-        }else {
+        } else {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(50.21776, 15.81386)));
             mMap.moveCamera(CameraUpdateFactory.zoomTo(15));
         }
@@ -129,7 +122,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         builder.setTitle("GPS");
         builder.setMessage("Prejete si zapnout GPS?")
                 .setPositiveButton("Ano", new DialogInterface.OnClickListener() {
-                    public void onClick( final DialogInterface dialog,final int id) {
+                    public void onClick(final DialogInterface dialog, final int id) {
                         startActivity(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS));
                     }
                 })

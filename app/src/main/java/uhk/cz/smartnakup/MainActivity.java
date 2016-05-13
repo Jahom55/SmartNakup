@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -32,6 +34,8 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
@@ -39,6 +43,9 @@ import uhk.cz.smartnakup.tables.TableControllerProductCart;
 import uhk.cz.smartnakup.tables.TableControllerProductDB;
 import uhk.cz.smartnakup.utils.CustomAutoCompleteTextChangedListener;
 import uhk.cz.smartnakup.utils.CustomAutoCompleteView;
+import uhk.cz.smartnakup.utils.InternetUtilsForFirebase;
+import uhk.cz.smartnakup.utils.validation.ProductNameValidator;
+import uhk.cz.smartnakup.utils.validation.QuantityValidator;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -78,6 +85,93 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        countRecords();
+        readRecords();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.action_settings) {
+            synchronizateProductsTables(MainActivity.this);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.db) {
+            Intent intent = new Intent(this, ProductDBActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.db_plan) {
+            Intent intent = new Intent(this, ProductDBPlanActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.mapButton) {
+            Intent intent = new Intent(this, MapsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.kontakt) {
+            Intent i = new Intent(Intent.ACTION_SEND);
+            i.setType("message/rfc822");
+            i.putExtra(Intent.EXTRA_EMAIL, new String[]{"homolkajaromir@seznam.cz"});
+            i.putExtra(Intent.EXTRA_SUBJECT, "Comment on the android app - SmartNakup ");
+            try {
+                startActivity(Intent.createChooser(i, "Send message to developer"));
+            } catch (android.content.ActivityNotFoundException ex) {
+            }
+
+        } else if (id == R.id.kontaktEmail) {
+            Intent i = new Intent(Intent.ACTION_SEND);
+            i.setType("message/rfc822");
+            i.putExtra(Intent.EXTRA_SUBJECT, "Nákupní lístek");
+            i.putExtra(Intent.EXTRA_TEXT, getStringFromTableCart());
+            try {
+                startActivity(Intent.createChooser(i, "Send email to friend"));
+            } catch (android.content.ActivityNotFoundException ex) {
+            }
+        } else if (id == R.id.kontaktFb) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent
+                    .putExtra(Intent.EXTRA_TEXT, getStringFromTableCart());
+            sendIntent.setType("text/plain");
+            sendIntent.setPackage("com.facebook.orca");
+            try {
+                startActivity(sendIntent);
+            } catch (android.content.ActivityNotFoundException ex) {
+                Toast.makeText(MainActivity.this, "Nemate messanger.", Toast.LENGTH_SHORT).show();
+            }
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 
     public void actionBtnToMap(View view) {
@@ -123,13 +217,19 @@ public class MainActivity extends AppCompatActivity
         myAutoComplete.setAdapter(myAdapter);
         final EditText mnozstvi = (EditText) formElementsView.findViewById(R.id.editTextQuantity);
 
+        mnozstvi.addTextChangedListener(new QuantityValidator(mnozstvi));
+        myAutoComplete.addTextChangedListener(new ProductNameValidator(myAutoComplete, context));
+
         new AlertDialog.Builder(context)
                 .setView(formElementsView)
                 .setTitle(R.string.titleFormAddtoCart_mainactiviy)
                 .setPositiveButton(R.string.create,
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-
+                                if (!QuantityValidator.isValidQuantity(mnozstvi.getText().toString()) || !ProductNameValidator.isValidProduct(myAutoComplete.getText().toString(), context)) {
+                                    Toast.makeText(MainActivity.this, R.string.pleaseFillCorrectValues, Toast.LENGTH_SHORT).show();
+                                    return;
+                                }
                                 String productName = myAutoComplete.getText().toString();
                                 int quantity = Integer.parseInt(mnozstvi.getText().toString());
 
@@ -151,54 +251,10 @@ public class MainActivity extends AppCompatActivity
                                 readRecords();
                                 countRecords();
                                 dialog.cancel();
-
-
                             }
 
                         }).show();
 
-    }
-
-
-
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        countRecords();
-        readRecords();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            synchronizateProductsTables(MainActivity.this);
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     private void synchronizateProductsTables(Context context1) {
@@ -209,12 +265,15 @@ public class MainActivity extends AppCompatActivity
                 .setPositiveButton(R.string.yes,
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-                                final TableControllerProductDB controller = new TableControllerProductDB(context);
-                                controller.deleteTable();
-                                new SynchronizateProductsFromFB().execute(context);
-                                readRecords();
-                                countRecords();
-                                dialog.cancel();
+                                if (InternetUtilsForFirebase.haveInternet(context)) {
+                                    final TableControllerProductDB controller = new TableControllerProductDB(context);
+                                    controller.deleteTable();
+                                    new SynchronizateProductsFromFB().execute(context);
+                                    dialog.cancel();
+                                } else {
+                                    Toast.makeText(MainActivity.this, "Internet neni k dispozici. Nelze synchronizovat", Toast.LENGTH_SHORT).show();
+
+                                }
                             }
 
                         })
@@ -223,82 +282,19 @@ public class MainActivity extends AppCompatActivity
                         dialog.cancel();
                     }
                 }).show();
-
-
-
-
-
-
-
-
-
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.db) {
-            Intent intent = new Intent(this, ProductDBActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.db_plan) {
-            Intent intent = new Intent(this, ProductDBPlanActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.mapButton) {
-            Intent intent = new Intent(this, MapsActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.kontakt) {
-            Intent i = new Intent(Intent.ACTION_SEND);
-            i.setType("message/rfc822");
-            i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"homolkajaromir@seznam.cz"});
-            i.putExtra(Intent.EXTRA_SUBJECT, "Comment on the android app - SmartNakup ");
-            try {
-                startActivity(Intent.createChooser(i, "Send message to developer"));
-            } catch (android.content.ActivityNotFoundException ex) {
-            }
-
-        } else if (id == R.id.kontaktEmail) {
-            Intent i = new Intent(Intent.ACTION_SEND);
-            i.setType("message/rfc822");
-            i.putExtra(Intent.EXTRA_SUBJECT, "Nákupní lístek");
-            i.putExtra(Intent.EXTRA_TEXT,getStringFromTableCart());
-            try {
-                startActivity(Intent.createChooser(i, "Send email to friend"));
-            } catch (android.content.ActivityNotFoundException ex) {
-            }
-        }else if (id == R.id.kontaktFb) {
-            Intent sendIntent = new Intent();
-            sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent
-                    .putExtra(Intent.EXTRA_TEXT,
-                            "" + getStringFromTableCart() + "Diky!"   );
-            sendIntent.setType("text/plain");
-            sendIntent.setPackage("com.facebook.orca");
-            try {
-                startActivity(sendIntent);
-            } catch (android.content.ActivityNotFoundException ex) {
-                Toast.makeText(MainActivity.this, "Nemate messanger.", Toast.LENGTH_SHORT).show();
-            }
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
-
-    private String getStringFromTableCart(){
+    private String getStringFromTableCart() {
         TableControllerProductCart controller = new TableControllerProductCart(this);
         TableControllerProductDB controllerPro = new TableControllerProductDB(this);
         List<ObjectCart> products = controller.read();
         StringBuilder stringB = new StringBuilder();
-        if(products.isEmpty()){
+        if (products.isEmpty()) {
             return "Nic v kosiku.";
         } else {
             stringB.append("Ahoj!\n" +
                     "Kup prosím tyto věci: \n");
-            for (ObjectCart cart: products) {
+            for (ObjectCart cart : products) {
                 stringB.append(controllerPro.readSingleRecord(cart.getProduct()).getName());
                 stringB.append(" ");
                 stringB.append(cart.getQuantity());
@@ -315,7 +311,7 @@ public class MainActivity extends AppCompatActivity
     public void countRecords() {
         int recordCount = new TableControllerProductCart(this).count();
         TextView textViewRecordCount = (TextView) findViewById(R.id.textViewRecordCount);
-        textViewRecordCount.setText(recordCount +" položek v nákupním seznamu");
+        textViewRecordCount.setText(recordCount + " položek v nákupním seznamu");
     }
 
     public void readRecords() {
@@ -324,12 +320,13 @@ public class MainActivity extends AppCompatActivity
         linearLayoutRecords.removeAllViews();
 
         List<ObjectCart> products = new TableControllerProductCart(this).read();
+        TableControllerProductDB dbController = new TableControllerProductDB(this);
 
         if (products.size() > 0) {
             for (ObjectCart obj : products) {
 
                 int id = obj.getId();
-                String productName = new TableControllerProductDB(this).readSingleRecord(obj.getProduct()).getName();
+                String productName = dbController.readSingleRecord(obj.getProduct()).getName();
                 int quantity = obj.getQuantity();
 
                 LinearLayout ll = new LinearLayout(getApplicationContext());
@@ -402,7 +399,7 @@ public class MainActivity extends AppCompatActivity
                                 } else if (item == 1) {
                                     boolean deleteSuccessful = new TableControllerProductCart(context).delete(Integer.parseInt(id));
                                     if (deleteSuccessful) {
-                                        Toast.makeText(context,R.string.cartDeleteSuccesful_mainactivity, Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(context, R.string.cartDeleteSuccesful_mainactivity, Toast.LENGTH_SHORT).show();
                                     } else {
                                         Toast.makeText(context, R.string.cartDeleteUnsuccesful_mainactivity, Toast.LENGTH_SHORT).show();
                                     }
@@ -438,12 +435,19 @@ public class MainActivity extends AppCompatActivity
         ObjectProduct objectProduct = new TableControllerProductDB(context).readSingleRecord(objectCart.getProduct());
         myAutoComplete.setText(objectProduct.getName());
         quantity.setText(String.valueOf(objectCart.getQuantity()));
+        myAutoComplete.addTextChangedListener(new ProductNameValidator(myAutoComplete, context));
+        quantity.addTextChangedListener(new QuantityValidator(quantity));
         new AlertDialog.Builder(context)
                 .setView(formElementsView)
                 .setTitle(R.string.titleEditFormCart_mainactivity)
                 .setPositiveButton(R.string.save,
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
+                                if (!QuantityValidator.isValidQuantity(quantity.getText().toString()) || !ProductNameValidator.isValidProduct(myAutoComplete.getText().toString(), context)) {
+                                    Toast.makeText(MainActivity.this, R.string.pleaseFillCorrectValues, Toast.LENGTH_SHORT).show();
+                                    return;
+                                }
+
                                 ObjectCart objectCart1 = new ObjectCart();
                                 objectCart1.setId(cartId);
                                 ObjectProduct objectProduct1 = new TableControllerProductDB(context).readSingleRecordByName(myAutoComplete.getText().toString());
@@ -452,12 +456,13 @@ public class MainActivity extends AppCompatActivity
                                 objectCart1.setBought(objectCart.getBought());
 
                                 dialog.cancel();
+
                                 boolean updateSuccessful = tableControllerProductCart.update(objectCart1);
 
                                 if (updateSuccessful) {
                                     Toast.makeText(context, R.string.cartEditFormSuccesful_mainactivity, Toast.LENGTH_SHORT).show();
                                 } else {
-                                    Toast.makeText(context,R.string.cartEditFormUnsuccesful_mainactivity , Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(context, R.string.cartEditFormUnsuccesful_mainactivity, Toast.LENGTH_SHORT).show();
                                 }
                                 countRecords();
                                 readRecords();
@@ -476,10 +481,9 @@ public class MainActivity extends AppCompatActivity
             mRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    for (DataSnapshot productsSnap : dataSnapshot.getChildren()){
+                    for (DataSnapshot productsSnap : dataSnapshot.getChildren()) {
                         ObjectProduct prod = productsSnap.getValue(ObjectProduct.class);
                         prod.setId(prod.getId());
-
                         new TableControllerProductDB(params[0]).createWithId(prod);
                     }
                 }
@@ -489,7 +493,7 @@ public class MainActivity extends AppCompatActivity
 
                 }
             });
-         return "";
+            return "";
         }
 
         @Override

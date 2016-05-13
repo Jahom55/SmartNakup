@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import uhk.cz.smartnakup.utils.OnPhotoTapListenerForDBPlanInsert;
-import uhk.cz.smartnakup.utils.OnPhotoTapListenerForPlanMessage;
 import uhk.cz.smartnakup.utils.RecolorImage;
 import uk.co.senab.photoview.PhotoViewAttacher;
 

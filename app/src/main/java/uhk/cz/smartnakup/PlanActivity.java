@@ -31,7 +31,6 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 public class PlanActivity extends AppCompatActivity {
     ImageView mImageView;
     PhotoViewAttacher mAttacher;
-    int width, height;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +38,6 @@ public class PlanActivity extends AppCompatActivity {
         setContentView(R.layout.activity_plan);
 
         mImageView = (ImageView) findViewById(R.id.imageView);
-
 
         RecolorImage.getNakup(mImageView, getApplicationContext());
         mAttacher = new PhotoViewAttacher(mImageView);

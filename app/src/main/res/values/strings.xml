@@ -35,4 +35,6 @@
     <string name="titleSynchronizate_mainactivity">Synchronizovat databázi</string>
     <string name="messageSynchronizate_mainactivity">Opravdu chcete sycnhronizovat DB? Tato akce může trvat několik minut a využívat dat</string>
     <string name="toastSynchronizate_mainactivityAsync">Synchronizave provedena!</string>
+    <string name="pleaseFillCorrectValues">Vyplnte spravne hodnoty</string>
+
 </resources>

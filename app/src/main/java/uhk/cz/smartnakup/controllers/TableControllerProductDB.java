@@ -1,4 +1,4 @@
-package uhk.cz.smartnakup.tables;
+package uhk.cz.smartnakup.controllers;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -64,7 +64,7 @@ public class TableControllerProductDB extends DatabaseHandler {
 
         SQLiteDatabase db = this.getWritableDatabase();
         try {
-            db.delete("products",null,null);
+            db.delete("products", null, null);
             deleteSuccessful = true;
         } catch (Exception e) {
         }
@@ -179,7 +179,7 @@ public class TableControllerProductDB extends DatabaseHandler {
 
         String where = "id = ?";
 
-        String[] whereArgs = { Integer.toString(objectProduct.getId()) };
+        String[] whereArgs = {Integer.toString(objectProduct.getId())};
 
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -240,7 +240,7 @@ public class TableControllerProductDB extends DatabaseHandler {
     }
 
 
-    public String[] getItemsFromDb(String searchTerm){
+    public String[] getItemsFromDb(String searchTerm) {
 
         List<ObjectProduct> products = read(searchTerm);
         int rowCount = products.size();
@@ -254,8 +254,6 @@ public class TableControllerProductDB extends DatabaseHandler {
         }
         return item;
     }
-
-
 
 
 }

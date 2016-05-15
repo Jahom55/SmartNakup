@@ -1,4 +1,4 @@
-package uhk.cz.smartnakup.tables;
+package uhk.cz.smartnakup.controllers;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -10,7 +10,6 @@ import java.util.List;
 
 import uhk.cz.smartnakup.db.DatabaseHandler;
 import uhk.cz.smartnakup.db.ObjectCart;
-import uhk.cz.smartnakup.db.ObjectProduct;
 
 /**
  * Created by Jaromir on 6.2.2016.
@@ -108,7 +107,6 @@ public class TableControllerProductCart extends DatabaseHandler {
     }
 
 
-
     public boolean update(ObjectCart objectCart) {
 
         ContentValues values = new ContentValues();
@@ -119,7 +117,7 @@ public class TableControllerProductCart extends DatabaseHandler {
 
         String where = "id = ?";
 
-        String[] whereArgs = { Integer.toString(objectCart.getId()) };
+        String[] whereArgs = {Integer.toString(objectCart.getId())};
 
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -177,7 +175,7 @@ public class TableControllerProductCart extends DatabaseHandler {
 
         SQLiteDatabase db = this.getWritableDatabase();
         try {
-            db.delete("cart",null,null);
+            db.delete("cart", null, null);
             deleteSuccessful = true;
         } catch (Exception e) {
         }

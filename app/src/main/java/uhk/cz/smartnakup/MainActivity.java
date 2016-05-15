@@ -7,8 +7,6 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -34,13 +32,11 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
-import uhk.cz.smartnakup.tables.TableControllerProductCart;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductCart;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 import uhk.cz.smartnakup.utils.CustomAutoCompleteTextChangedListener;
 import uhk.cz.smartnakup.utils.CustomAutoCompleteView;
 import uhk.cz.smartnakup.utils.InternetUtilsForFirebase;
@@ -271,7 +267,7 @@ public class MainActivity extends AppCompatActivity
                                     new SynchronizateProductsFromFB().execute(context);
                                     dialog.cancel();
                                 } else {
-                                    Toast.makeText(MainActivity.this, "Internet neni k dispozici. Nelze synchronizovat", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, R.string.noInternetNoSynchnization, Toast.LENGTH_SHORT).show();
 
                                 }
                             }

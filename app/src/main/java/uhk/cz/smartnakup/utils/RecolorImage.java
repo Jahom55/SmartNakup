@@ -16,8 +16,8 @@ import java.util.List;
 import uhk.cz.smartnakup.R;
 import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
-import uhk.cz.smartnakup.tables.TableControllerProductCart;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductCart;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 
 /**
  * Created by Jaromir on 10.4.2016.

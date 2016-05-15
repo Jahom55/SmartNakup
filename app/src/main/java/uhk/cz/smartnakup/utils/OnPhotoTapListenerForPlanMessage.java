@@ -9,8 +9,8 @@ import java.util.List;
 
 import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
-import uhk.cz.smartnakup.tables.TableControllerProductCart;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductCart;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 /**

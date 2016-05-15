@@ -6,7 +6,7 @@ import android.text.TextWatcher;
 import android.widget.ArrayAdapter;
 
 import uhk.cz.smartnakup.MainActivity;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 
 public class CustomAutoCompleteTextChangedListener implements TextWatcher {
 

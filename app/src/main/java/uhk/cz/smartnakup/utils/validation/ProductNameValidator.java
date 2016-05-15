@@ -3,10 +3,10 @@ package uhk.cz.smartnakup.utils.validation;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.widget.EditText;
 
+import uhk.cz.smartnakup.R;
 import uhk.cz.smartnakup.db.ObjectProduct;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 import uhk.cz.smartnakup.utils.CustomAutoCompleteView;
 
 /**

@@ -3,9 +3,6 @@ package uhk.cz.smartnakup.utils;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
@@ -14,13 +11,9 @@ import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 
-import java.util.List;
-
 import uhk.cz.smartnakup.R;
-import uhk.cz.smartnakup.db.ObjectCart;
 import uhk.cz.smartnakup.db.ObjectProduct;
-import uhk.cz.smartnakup.tables.TableControllerProductCart;
-import uhk.cz.smartnakup.tables.TableControllerProductDB;
+import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 /**

@@ -16,7 +16,6 @@ import uhk.cz.smartnakup.db.ObjectProduct;
  */
 public class InternetUtilsForFirebase {
 
-
     public static boolean haveInternet(Context ctx) {
         NetworkInfo info = (NetworkInfo) ((ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
         if (info == null || !info.isConnected()) {
@@ -24,7 +23,6 @@ public class InternetUtilsForFirebase {
         }
         return true;
     }
-
 
     public static void deleteProduct(Firebase mRef, final String id){
         mRef.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -41,11 +39,7 @@ public class InternetUtilsForFirebase {
             }
             @Override
             public void onCancelled(FirebaseError firebaseError) {
-
             }
         });
-
-
-
     }
 }

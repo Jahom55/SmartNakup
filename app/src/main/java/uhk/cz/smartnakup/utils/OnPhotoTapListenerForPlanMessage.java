@@ -30,10 +30,11 @@ public class OnPhotoTapListenerForPlanMessage implements PhotoViewAttacher.OnPho
     public void onPhotoTap(final View view, float x, float y) {
         List<ObjectCart> products = new TableControllerProductCart(view.getContext()).read();
 
-        for (ObjectCart pr: products) {
+        for (ObjectCart pr : products) {
             final ObjectCart product = pr;
             final ObjectProduct objectProduct1 = new TableControllerProductDB(view.getContext()).readSingleRecord(pr.getProduct());
-            if (Math.abs(x * width - objectProduct1.getXcor()) < 30 && Math.abs(y * height - objectProduct1.getYcor()) < 30){
+
+            if (Math.abs(x * width - objectProduct1.getXcor()) < 30 && Math.abs(y * height - objectProduct1.getYcor()) < 30) {
                 AlertDialog alert = new AlertDialog.Builder(view.getContext()).create();
                 alert.setTitle(objectProduct1.getName() + " " + pr.getQuantity() + " kusů");
                 alert.setMessage("Nakoupit tuto věc?");
@@ -42,7 +43,7 @@ public class OnPhotoTapListenerForPlanMessage implements PhotoViewAttacher.OnPho
                     public void onClick(DialogInterface dialog, int which) {
                         product.setBought(0);
                         new TableControllerProductCart(view.getContext()).update(product);
-                        RecolorImage.getNakup(imageView, view.getContext());
+                        RecolorImage.getNakup(imageView, view.getContext(), true, objectProduct1.getXcor(), objectProduct1.getYcor(), false, null);
 
                     }
                 });
@@ -51,17 +52,13 @@ public class OnPhotoTapListenerForPlanMessage implements PhotoViewAttacher.OnPho
                     public void onClick(DialogInterface dialog, int which) {
                         product.setBought(1);
                         new TableControllerProductCart(view.getContext()).update(product);
-                        RecolorImage.getNakup(imageView, view.getContext());
-
+                        RecolorImage.getNakup(imageView, view.getContext(), true, objectProduct1.getXcor(), objectProduct1.getYcor(), false, null);
                     }
                 });
                 alert.show();
-
-
-
             }
-
-
         }
     }
+
+
 }

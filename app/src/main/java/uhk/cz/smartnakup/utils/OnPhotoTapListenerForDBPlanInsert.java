@@ -68,13 +68,9 @@ public class OnPhotoTapListenerForDBPlanInsert implements PhotoViewAttacher.OnPh
                                     Toast.makeText(context, "Unable to save product information.", Toast.LENGTH_SHORT).show();
                                 }
                                 dialog.cancel();
-
-
                             }
 
                         }).show();
-
-
     }
 
     //TODO Method for Accurate rounding the map

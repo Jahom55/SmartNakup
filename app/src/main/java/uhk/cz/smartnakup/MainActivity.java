@@ -65,14 +65,6 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        FloatingActionButton delelteFab = (FloatingActionButton) findViewById(R.id.deleteFab);
-        delelteFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                actionClearCartList(view);
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -131,6 +123,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.mapButton) {
             Intent intent = new Intent(this, MapsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.testKompasButton) {
+            Intent intent = new Intent(this, TestKompas.class);
             startActivity(intent);
         } else if (id == R.id.kontakt) {
             Intent i = new Intent(Intent.ACTION_SEND);

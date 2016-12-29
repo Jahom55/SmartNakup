@@ -14,6 +14,10 @@
             android:id="@+id/mapButton"
             android:icon="@drawable/ic_menu_send"
             android:title="Mapa s obchody" />
+        <item
+            android:id="@+id/testKompasButton"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Kompas - test" />
     </group>
 
     <item android:title="Komunikace">

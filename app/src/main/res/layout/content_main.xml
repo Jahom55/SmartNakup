@@ -55,16 +55,11 @@
         android:src="@android:drawable/ic_menu_add"
         android:layout_marginLeft="@dimen/fab_margin"
         android:layout_marginRight="@dimen/fab_margin"
-        android:layout_below="@+id/textViewRecordCount"
-        android:layout_alignEnd="@+id/textViewRecordCount" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/deleteFab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_menu_delete"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="20dp"
         android:layout_above="@+id/btnToMap"
-        android:layout_alignStart="@+id/fab"
-        android:layout_marginBottom="20dp" />"
+        android:layout_alignParentEnd="true" />
+
+    "
 
 </RelativeLayout>

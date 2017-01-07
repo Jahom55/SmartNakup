@@ -22,6 +22,7 @@ import com.google.maps.android.kml.KmlLayer;
 
 import org.xmlpull.v1.XmlPullParserException;
 
+import java.io.File;
 import java.io.IOException;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -120,7 +121,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void buildAlertMessageNoGps() {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("GPS");
-        builder.setMessage("Prejete si zapnout GPS?")
+        builder.setMessage(R.string.turnOnGps)
                 .setPositiveButton("Ano", new DialogInterface.OnClickListener() {
                     public void onClick(final DialogInterface dialog, final int id) {
                         startActivity(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS));

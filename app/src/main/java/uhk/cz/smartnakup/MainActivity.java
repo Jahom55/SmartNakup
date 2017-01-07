@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(Intent.ACTION_SEND);
             i.setType("message/rfc822");
             i.putExtra(Intent.EXTRA_EMAIL, new String[]{"homolkajaromir@seznam.cz"});
-            i.putExtra(Intent.EXTRA_SUBJECT, "Comment on the android app - SmartNakup ");
+            i.putExtra(Intent.EXTRA_SUBJECT, R.string.commentAndroidApp);
             try {
                 startActivity(Intent.createChooser(i, "Send message to developer"));
             } catch (android.content.ActivityNotFoundException ex) {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.kontaktEmail) {
             Intent i = new Intent(Intent.ACTION_SEND);
             i.setType("message/rfc822");
-            i.putExtra(Intent.EXTRA_SUBJECT, "Nákupní lístek");
+            i.putExtra(Intent.EXTRA_SUBJECT, R.string.shoppingList);
             i.putExtra(Intent.EXTRA_TEXT, getStringFromTableCart());
             try {
                 startActivity(Intent.createChooser(i, "Send email to friend"));
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity
             try {
                 startActivity(sendIntent);
             } catch (android.content.ActivityNotFoundException ex) {
-                Toast.makeText(MainActivity.this, "Nemate messanger.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.haventMessenger, Toast.LENGTH_SHORT).show();
             }
         }
 

@@ -12,9 +12,10 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 
+//Activity only for to help with kompas - draw few lines and shows where is north
 public class TestKompas extends Activity implements SensorEventListener {
 
-    Float azimut;  // View to draw a compass
+    Float azimut;
 
     public class CustomDrawableView extends View {
         Paint paint = new Paint();

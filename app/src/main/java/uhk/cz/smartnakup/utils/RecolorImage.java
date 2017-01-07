@@ -29,8 +29,6 @@ import uhk.cz.smartnakup.controllers.TableControllerProductDB;
 public class RecolorImage {
     static int width = 0;
     static int height = 0;
-    static boolean inicializace = true;
-    static float pocetKroku = 0;
     static int x;
     static int y;
     static int smer = 0; // 0 vlevo 1 nahoru 2 dolu 3 pravo
@@ -49,10 +47,6 @@ public class RecolorImage {
     public static void setHeight(int height) {
         RecolorImage.height = height;
     }
-
-    public static float getPocetKroku() {return pocetKroku;}
-
-    public static void setPocetKroku(float pocetKroku) {RecolorImage.pocetKroku = pocetKroku;}
 
     public static int getSmer() {
         return smer;
@@ -86,32 +80,6 @@ public class RecolorImage {
         width = tempBitmap.getWidth();
     }
 
-    /* Original method
-    public static void getNakup(ImageView imageView, Context context){
-        List<ObjectCart> products = new TableControllerProductCart(context).read();
-
-        Paint myPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        Bitmap myBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.lidl);
-        Bitmap tempBitmap = Bitmap.createBitmap(myBitmap.getWidth(), myBitmap.getHeight(), Bitmap.Config.RGB_565);
-        Canvas tempCanvas = new Canvas(tempBitmap);
-        height =tempBitmap.getHeight();
-        width = tempBitmap.getWidth();
-        tempCanvas.drawBitmap(myBitmap, 0, 0, null);
-        for (ObjectCart pr: products) {
-            ObjectProduct objectProduct1 = new TableControllerProductDB(context).readSingleRecord(pr.getProduct());
-            if (pr.getBought() == 0) {
-                myPaint.setColor(Color.RED);
-            }else {
-                myPaint.setColor(Color.GREEN);
-            }
-            tempCanvas.drawCircle(objectProduct1.getXcor(), objectProduct1.getYcor(), 30, myPaint);
-        }
-        Drawable d = new BitmapDrawable(context.getResources(), tempBitmap);
-        Drawable bitmap = ContextCompat.getDrawable(context, R.drawable.lidl);
-        imageView.setImageDrawable(d);
-    }*/
-
-
     //Method for draw shopping cart and actual position to Plan
     public static void getNakup(ImageView imageView, Context context, boolean canIMove, int x, int y,boolean step, Float azimut){
         List<ObjectCart> cartproducts = new TableControllerProductCart(context).read();
@@ -139,59 +107,59 @@ public class RecolorImage {
         for (ObjectProduct pr : products){
             sektors.add(getSectorsPosition(pr.getXcor(),pr.getYcor()));
         }
-        boolean[] isInSector = new boolean[8];       //7  5   3    1
-        Arrays.fill(isInSector, Boolean.FALSE);      //6  4    2    0
-
-
-        //Vykresleni jednotlibych car mezi regalama
-            for (int[] sektor : sektors) {
-                if (sektor[0] == 3) {
-                    if (sektor[1] == 1) {
-                        myPaint.setColor(Color.BLUE);
-                        tempCanvas.drawLine(933, 1600, 933, 850, myPaint);
-                        isInSector[0]= true;
-                    }
-                }
-                if (sektor[0] == 1) {
-                    if (sektor[1] == 0) {
-                        myPaint.setColor(Color.BLUE);
-                        tempCanvas.drawLine(405, 850, 405, 120, myPaint);
-                        isInSector[5]= true;
-                    }
-                }
-                if (sektor[0] == 0) {
-                    if (sektor[1] == 0) {
-                        myPaint.setColor(Color.BLUE);
-                        tempCanvas.drawLine(150, 120, 150, 850, myPaint);
-                        isInSector[7]= true;
-                    }
-                }
-
-                if (sektor[0] == 2) {
-                    if (sektor[1] == 1) {
-                        myPaint.setColor(Color.BLUE);
-                        tempCanvas.drawLine(680, 850, 680, 1600, myPaint);
-                        isInSector[2]= true;
-                    }
-                }
-
-            }
-        //Spojeni predchozich car
+        //Draw  lines at aisle
+        boolean[] isInSector = drawLineInAisle(tempCanvas,myPaint,sektors);
+        //Draw joiningLine between Aisle
         drawJoinLine(isInSector,tempCanvas,myPaint);
+        //Draw actual position
         drawWhereAmI(tempCanvas,myPaint,canIMove, x, y,tempBitmap,step, azimut);
 
-        /*
-        tempCanvas.drawLine(933,1600,933,850,myPaint);
-        tempCanvas.drawLine(933,850,products.get(0).getXcor()-50,850,myPaint);
-        tempCanvas.drawLine(products.get(0).getXcor()-50,850,products.get(0).getXcor()-50,products.get(1).getYcor()+50,myPaint);
-        tempCanvas.drawLine(products.get(0).getXcor()-50,products.get(1).getYcor()+50,products.get(1).getXcor(),products.get(1).getYcor()+50,myPaint);
-        tempCanvas.drawLine(products.get(1).getXcor(),products.get(1).getYcor()+50,products.get(1).getXcor(),1600,myPaint);*/
-
+        //Create new bitmap
         Drawable d = new BitmapDrawable(context.getResources(), tempBitmap);
         Drawable bitmap = ContextCompat.getDrawable(context, R.drawable.lidl);
         imageView.setImageDrawable(d);
     }
 
+    public static boolean[] drawLineInAisle (Canvas tempCanvas, Paint myPaint,List<int[]> sektors){
+        boolean[] isInSector = new boolean[8];       //7  5   3    1
+        Arrays.fill(isInSector, Boolean.FALSE);      //6  4    2    0
+
+        //Vykresleni jednotlibych car mezi regalama
+        for (int[] sektor : sektors) {
+            if (sektor[0] == 3) {
+                if (sektor[1] == 1) {
+                    myPaint.setColor(Color.BLUE);
+                    tempCanvas.drawLine(933, 1600, 933, 850, myPaint);
+                    isInSector[0]= true;
+                }
+            }
+            if (sektor[0] == 1) {
+                if (sektor[1] == 0) {
+                    myPaint.setColor(Color.BLUE);
+                    tempCanvas.drawLine(405, 850, 405, 120, myPaint);
+                    isInSector[5]= true;
+                }
+            }
+            if (sektor[0] == 0) {
+                if (sektor[1] == 0) {
+                    myPaint.setColor(Color.BLUE);
+                    tempCanvas.drawLine(150, 120, 150, 850, myPaint);
+                    isInSector[7]= true;
+                }
+            }
+
+            if (sektor[0] == 2) {
+                if (sektor[1] == 1) {
+                    myPaint.setColor(Color.BLUE);
+                    tempCanvas.drawLine(680, 850, 680, 1600, myPaint);
+                    isInSector[2]= true;
+                }
+            }
+        }
+        return isInSector;
+    }
+
+    //Draw actual position of user
     public static void drawWhereAmI(Canvas tempCanvas, Paint myPaint, boolean canImove, int x, int y, Bitmap tempBitmap, boolean step, Float azimut){
         myPaint.setColor(Color.YELLOW);
         if (canImove) {
@@ -230,57 +198,13 @@ public class RecolorImage {
                 }
             }
             return;
-            //TODO 07082016 Pohyb po trase, aby se nevracel
         } else if (step){
+            //First run app azimut is null, so change to unreal value
             if (azimut == null) azimut = 100.0f;
-            boolean zmenaNaKrizovatce = false;
-            x = getX();
-            y = getY();
 
-            int rozdilNaKrizovatceProX = x - 680;
-            int rozdilNaKrizovatceProY = y - 1600;
-            int rozdilNaKrizovatceProX2 = x - 680;
-            int rozdilNaKrizovatceProY2 = y - 850;
-            int rozdilNaKrizovatceProX3 = x - 405;
-            int rozdilNaKrizovatceProY3 = y - 120;
-            int rozdilNaKrizovatceProX4 = x - 150;
-            int rozdilNaKrizovatceProY4 = y - 120;
-            int rozdilNaKrizovatceProX5 = x - 405;
-            int rozdilNaKrizovatceProY5 = y - 850;
-
-            tempCanvas.drawCircle(x, y, 15, myPaint);
-            if (Math.abs(rozdilNaKrizovatceProX) < 15 && Math.abs(rozdilNaKrizovatceProY) < 15 ){
-                x = 680;
-                y = 1600;
-            }
-            else if (Math.abs(rozdilNaKrizovatceProX2) < 15 && Math.abs(rozdilNaKrizovatceProY2) < 15 ){
-                x = 680;
-                y = 850;
-                int pixelHorni = tempBitmap.getPixel(x - 16, y);
-                if (pixelHorni == -256) {
-                    setSmer(1);
-                } else {
-                    setSmer(2);
-                }
-
-            } else if (Math.abs(rozdilNaKrizovatceProX3) < 15 && Math.abs(rozdilNaKrizovatceProY3) < 15 ){
-                x = 405;
-                y = 120;
-                setSmer(2);
-            } else if (Math.abs(rozdilNaKrizovatceProX4) < 15 && Math.abs(rozdilNaKrizovatceProY4) < 15 ){
-                x = 150;
-                y = 120;
-                setSmer(2);
-            }else if (Math.abs(rozdilNaKrizovatceProX5) < 15 && Math.abs(rozdilNaKrizovatceProY5) < 15 ){
-                x = 405;
-                y = 850;
-                int pixelHorni = tempBitmap.getPixel(x, y-16);
-                if (pixelHorni == -8684033) {
-                    setSmer(1);
-                } else {
-                    setSmer(2);
-                }
-            }
+            Point point = checkIfAtCrossroad(tempCanvas,tempBitmap,myPaint,getX(),getY());
+            x = point.x;
+            y = point.y;
 
             for(int i = 0; i < 17;i = i + 16) {
                 if (x - 16 >= 0) {
@@ -320,37 +244,58 @@ public class RecolorImage {
                     }
                 }
             }
-            //Old method k vyhledavani na krizovatce
-           /* for(int i = 0; i < 17;i++) {
-                if (x - 16 >= 0 && y - 16 >= 0 ) {
-                    int color_pixelW = tempBitmap.getPixel(x - i, y - i);
-                    if (color_pixelW == -8684033) {
-                        tempCanvas.drawCircle(x - i, y, 15, myPaint);
-                        setX(x - i);
-                        setY(y -i);
-                        setSmer(1);
-                        return;
-
-                    }
-                }
-            }*/
-
         } else {
             setX(x);setY(y);
             tempCanvas.drawCircle(x, y,15, myPaint);
         }
     }
 
-    //Not working
-    public static void getProductCoords(ImageView imageView, Context context){
-        List<ObjectCart> carts = new TableControllerProductCart(context).read();
-        List<ObjectProduct> products = new ArrayList<>();
-        ArrayList<ObjectCart> sortProductsBySector = new ArrayList<>();
-        for (ObjectCart pr: carts) {
-            products.add(new TableControllerProductDB(context).readSingleRecord(pr.getProduct()));
-        }
-    }
+    private static Point checkIfAtCrossroad(Canvas tempCanvas, Bitmap tempBitmap, Paint myPaint, int x, int y){
+        int rozdilNaKrizovatceProX = x - 680;
+        int rozdilNaKrizovatceProY = y - 1600;
+        int rozdilNaKrizovatceProX2 = x - 680;
+        int rozdilNaKrizovatceProY2 = y - 850;
+        int rozdilNaKrizovatceProX3 = x - 405;
+        int rozdilNaKrizovatceProY3 = y - 120;
+        int rozdilNaKrizovatceProX4 = x - 150;
+        int rozdilNaKrizovatceProY4 = y - 120;
+        int rozdilNaKrizovatceProX5 = x - 405;
+        int rozdilNaKrizovatceProY5 = y - 850;
 
+        tempCanvas.drawCircle(x, y, 15, myPaint);
+        if (Math.abs(rozdilNaKrizovatceProX) < 15 && Math.abs(rozdilNaKrizovatceProY) < 15 ){
+            x = 680;
+            y = 1600;
+        }
+        else if (Math.abs(rozdilNaKrizovatceProX2) < 15 && Math.abs(rozdilNaKrizovatceProY2) < 15 ){
+            x = 680;
+            y = 850;
+            int pixelHorni = tempBitmap.getPixel(x - 16, y);
+            if (pixelHorni == -256) {
+                setSmer(1);
+            } else {
+                setSmer(2);
+            }
+        } else if (Math.abs(rozdilNaKrizovatceProX3) < 15 && Math.abs(rozdilNaKrizovatceProY3) < 15 ){
+            x = 405;
+            y = 120;
+            setSmer(2);
+        } else if (Math.abs(rozdilNaKrizovatceProX4) < 15 && Math.abs(rozdilNaKrizovatceProY4) < 15 ){
+            x = 150;
+            y = 120;
+            setSmer(2);
+        }else if (Math.abs(rozdilNaKrizovatceProX5) < 15 && Math.abs(rozdilNaKrizovatceProY5) < 15 ){
+            x = 405;
+            y = 850;
+            int pixelHorni = tempBitmap.getPixel(x, y-16);
+            if (pixelHorni == -8684033) {
+                setSmer(1);
+            } else {
+                setSmer(2);
+            }
+        }
+        return new Point(x,y);
+    }
 
     public static void drawJoinLine(boolean[] isInSector, Canvas tempCanvas, Paint myPaint){
         if(!isInSector[0] && !isInSector[1]) {
@@ -391,9 +336,8 @@ public class RecolorImage {
         }
     }
 
-
-
-    //Metoda, kde lezi jednotlive sektory (rulicky mezi regalama)
+    //Metoda, kde lezi jednotlive sektory (ulicky mezi regalama)
+    //params - position of product
     public static int[] getSectorsPosition(int posX, int posY){
         int[] sector = new int[2];
         int xStart = 49;

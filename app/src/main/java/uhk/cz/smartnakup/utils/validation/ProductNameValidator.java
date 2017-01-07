@@ -21,9 +21,6 @@ public class ProductNameValidator implements TextWatcher {
         this.context = context;
     }
 
-
-
-
     @Override
     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 

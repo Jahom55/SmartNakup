@@ -63,9 +63,9 @@ public class OnPhotoTapListenerForDBPlanInsert implements PhotoViewAttacher.OnPh
                                 }
 
                                 if (createSuccessful) {
-                                    Toast.makeText(context, "Product information was saved.", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(context, R.string.productSuccessSave, Toast.LENGTH_SHORT).show();
                                 } else {
-                                    Toast.makeText(context, "Unable to save product information.", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(context, R.string.productFailSave, Toast.LENGTH_SHORT).show();
                                 }
                                 dialog.cancel();
                             }
@@ -88,7 +88,5 @@ public class OnPhotoTapListenerForDBPlanInsert implements PhotoViewAttacher.OnPh
         }
         return xy;
     }
-
-
 }
 

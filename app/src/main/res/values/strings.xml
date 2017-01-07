@@ -38,5 +38,13 @@
     <string name="pleaseFillCorrectValues">Vyplnte spravne hodnoty</string>
     <string name="invalidProductName">Neexistující název produktu</string>
     <string name="noInternetNoSynchnization">Internet není k dispozici. Nelze synchronizovat</string>
+    <string name="productSuccessSave">Produkt se uložil.</string>
+    <string name="productFailSave">Produkt se neuložil.</string>
+    <string name="buyThisThing">Nakoupit tuto věc?</string>
+    <string name="turnOnGps">Zapnout senzor GPS?</string>
+    <string name="shoppingList">Nákupní lístek</string>
+    <string name="sendEmailToFriend">Poslat email přítelovi</string>
+    <string name="haventMessenger">Nemáte messenger.</string>
+    <string name="commentAndroidApp">Okomentování Android aplikace - SmartNákup</string>
 
 </resources>

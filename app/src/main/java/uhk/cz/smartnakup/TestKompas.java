@@ -24,6 +24,7 @@ public class TestKompas extends Activity implements SensorEventListener {
             paint.setColor(0xff00ff00);
             paint.setStyle(Style.STROKE);
             paint.setStrokeWidth(2);
+            paint.setTextSize(20);
             paint.setAntiAlias(true);
         };
 
@@ -42,6 +43,8 @@ public class TestKompas extends Activity implements SensorEventListener {
             canvas.drawLine(-1000, centery, 1000, centery, paint);
             canvas.drawText("N", centerx+5, centery-10, paint);
             canvas.drawText("S", centerx-10, centery+15, paint);
+            if (azimut != null)
+                canvas.drawText(azimut.toString(),300,300,paint);
             paint.setColor(0xff00ff00);
         }
     }

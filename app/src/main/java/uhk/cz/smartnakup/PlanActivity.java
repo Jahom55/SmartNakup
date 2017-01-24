@@ -51,7 +51,7 @@ public class PlanActivity extends AppCompatActivity implements SensorEventListen
         } else {
             Toast.makeText(PlanActivity.this, "Není povolena poloha.", Toast.LENGTH_SHORT).show();
         }
-        //Registrace kompasu
+        //Registration of compass
         accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         magnetometer = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
         sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_UI);

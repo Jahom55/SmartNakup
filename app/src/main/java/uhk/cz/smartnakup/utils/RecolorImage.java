@@ -219,7 +219,7 @@ public class RecolorImage {
                 }
                 if (y - 16 >= 0) {
                     int color_pixelN = tempBitmap.getPixel(x, y - i);
-                    if (color_pixelN != -256 && color_pixelN != -1 && getSmer() != 2 && azimut < 0.4 && azimut > -0.4) {
+                    if (color_pixelN == -8684033 && color_pixelN != -1 && getSmer() != 2 && azimut < 0.4 && azimut > -0.4) {
                         setX(x);
                         setY(y - i);
                         int color_pixelNNext = tempBitmap.getPixel(x, (int) (y - i));
@@ -232,7 +232,7 @@ public class RecolorImage {
                 }
                 if (y + 16 <= 1704) {
                     int color_pixelS = tempBitmap.getPixel(x, y + i);
-                    if (color_pixelS != -256 && getSmer() != 1 && ((azimut < 3.6 && azimut > 2.6) || (azimut > -3.6 && azimut < -2.6))) {
+                    if (color_pixelS == -8684033 && getSmer() != 1 && ((azimut < 3.6 && azimut > 2.6) || (azimut > -3.6 && azimut < -2.6))) {
                         tempCanvas.drawCircle(x, y + i, 15, myPaint);
                         setX(x);
                         setY(y + i);
